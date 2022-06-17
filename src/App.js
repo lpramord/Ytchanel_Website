@@ -1,4 +1,5 @@
 import React , {useEffect, useState }  from 'react';
+import {Helmet} from "react-helmet";
 import './App.css';
 
 const App = () => {
@@ -12,10 +13,9 @@ const App = () => {
   },[])
 
   const apikey = "AIzaSyAYjn6lsRnlUcQl4TO9Zi52nHlpqodA_sU"
-  const chanelId = "UCJA-NQ4MtcRIog66wziD8fA"
+  const chanelId = "UCyZluseVPq0_2lCW9WNTjGw"
 
   async function getData() {
-
     const response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${chanelId}&maxResults=250&order=date&key=${apikey}`, {
         "method": "GET",});
         const data = await response.json(); 
@@ -29,6 +29,11 @@ const App = () => {
   }
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{`${chanelDiscription.title}`}</title>
+      <link rel="icon" type="image/x-icon" href={`${chanellogo}`}></link>
+    </Helmet>
     <section className='home'>
       <div className='header'>
       <div className='left'>
@@ -42,10 +47,11 @@ const App = () => {
       </div>
     </section>
     <section className='video'>
-      {videos.map((item)=>(
-        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${item.id.videoId}`} key={`${item.id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      {videos.map((item,i)=>(
+        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${item.id.videoId}`} key={`${i}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       ))}
     </section>
+    <section className='foter'></section>
     </>
   );
 }

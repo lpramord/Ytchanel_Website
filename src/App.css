@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
 *{
   padding: 0%;
   margin: 0%;
+  background-color: #dee7dd;
+  scroll-behavior: smooth;
 }
 .home{
-  background-image: url('./xx.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  overflow-x: hidden;
 }
 .header{
   display: flex;
@@ -24,21 +27,34 @@
   border-radius: 10vh;
   padding: 1vh;
 }
-.account{
-  height: 6vh;
-  width: 6vh;
-  border-radius: 6vh;
-  border: none;
-  outline: none;
-  background-color: rgb(35, 122, 93);
-  font-size: 4vh;
-  margin-right: 10px;
+.chanelName{
+  letter-spacing: 1px;
+  color: rgb(31, 28, 28);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .aboutWrapper{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 70vh;
-  padding: 5%;
+  padding: 5px;
+  margin: 5%;
   letter-spacing: 4px;
+  color: rgb(31, 28, 28);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+}
+.video{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.video iframe{
+  height: 200px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 5vh;
+}
+.foter{
+  height: 20vh;
 }
