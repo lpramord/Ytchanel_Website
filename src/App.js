@@ -17,15 +17,15 @@ const App = () => {
 
   async function getData() {
     const response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${chanelId}&maxResults=250&order=date&key=${apikey}`, {
-        "method": "GET",});
-        const data = await response.json(); 
-        setVideos(data.items);
+      "method": "GET",});
+    const data = await response.json(); 
+    setVideos(data.items);
 
-        const response1 = await fetch(`https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${chanelId}&key=${apikey}`, {
-          "method": "GET",});
-          const data1 = await response1.json(); 
-         setChanellogo(data1.items[0].snippet.thumbnails.medium.url);
-         setChanelDiscription(data1.items[0].snippet);
+    const response1 = await fetch(`https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${chanelId}&key=${apikey}`, {
+      "method": "GET",});
+    const data1 = await response1.json(); 
+    setChanellogo(data1.items[0].snippet.thumbnails.medium.url);
+    setChanelDiscription(data1.items[0].snippet);
   }
   return (
     <>
