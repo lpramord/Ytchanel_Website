@@ -12,8 +12,8 @@ const App = () => {
     getData()
   },[])
 
-  const apikey = "AIzaSyAYjn6lsRnlUcQl4TO9Zi52nHlpqodA_sU"
-  const chanelId = "UCyZluseVPq0_2lCW9WNTjGw"
+  const apikey = "Your Api key"
+  const chanelId = "Your Channel Id"
 
   async function getData() {
     const response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${chanelId}&maxResults=250&order=date&key=${apikey}`, {

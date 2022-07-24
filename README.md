@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+*Youtube template Documentation*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After purchase this site template,
 
-## Available Scripts
+    If you don’t have Node Js installed in
+your computer go and install it buy this link :-[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-In the project directory, you can run:
+    After
+installing it on your computer the next thing you have to do is install the npm
+packages need for this template to work you can do it simply by executing “ npm
+I “ command on your terminal/cmd relevant to the your project folder If you
+need anything more than that link :-[https://docs.npmjs.com/about-npm](https://docs.npmjs.com/about-npm)
 
-### `npm start`
+    Then you can add your you tube data v3
+api key into your react js template to get an api key link :-[https://console.cloud.google.com/apis/dashboard](https://console.cloud.google.com/apis/dashboard)
+if you dont know how to do it use this link for it :- [https://blog.hubspot.com/website/how-to-get-youtube-api-key](https://blog.hubspot.com/website/how-to-get-youtube-api-key)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    After you getting your api key update
+it on “project location/src/app.js”
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![](file:///C:/Users/Lochana/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)![1658671770238](image/README/1658671770238.png)
 
-### `npm test`
+In 15^th line.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    After
+you update it get channel id by this link :-[https://youtu.be/D12v4rTtiYM](https://youtu.be/D12v4rTtiYM)
+and update it
 
-### `npm run build`
+In 16^th line.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Now website is
+ready you can deploy it very easily by using this link :- [https://blog.logrocket.com/8-ways-deploy-react-app-free/#:~:text=For%20your%20React%20app%2C%20you,whenever%20you%20push%20your%20changes](https://blog.logrocket.com/8-ways-deploy-react-app-free/#:~:text=For%20your%20React%20app%2C%20you,whenever%20you%20push%20your%20changes).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you need
+more changes you have freedom for change colors paddings font size font styles
+every thing you can do by changing “proje ct location/src/app.css”
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](file:///C:/Users/Lochana/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Ytchanel_Website" 
+![](file:///C:/Users/Lochana/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)
